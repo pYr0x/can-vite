@@ -3,12 +3,13 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --debug",
     "serve": "vite preview",
     "r:build": "rollup -c"
   },
   "devDependencies": {
     "vite": "^2.0.5",
+    "rollup": "^2.40.0",
     "rollup-plugin-stache": "pYr0x/rollup-plugin-stache",
     "rollup-plugin-cleanup": "^3.2.1",
     "rollup-plugin-commonjs": "^10.1.0",
