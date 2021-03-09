@@ -1,0 +1,4 @@
+<can-dynamic-import from="./bar/foo.js" value:to="scope.vars.foo" />
+
+<h1>Hello {{hello}}!!!!!</h1>
+{{scope.vars.foo.default}}
